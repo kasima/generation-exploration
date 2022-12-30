@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "personification_of_Halloween_holiday_in_form_of_cute_girl,_short_hair,_cute.93.gs22.60.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
