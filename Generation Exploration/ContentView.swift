@@ -24,7 +24,7 @@ struct ContentView: View {
                 Text(String(format: "%.f", steps))
             }
             HStack {
-                Slider(value: $guidanceScale, in: 5...25, step: 1) { Text("Scale") }
+                Slider(value: $guidanceScale, in: 10...25, step: 1) { Text("Scale") }
                 Text(String(format: "%.f", guidanceScale))
             }
         }
