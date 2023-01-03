@@ -15,6 +15,9 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+//            Text("Prompt: personification of Halloween holiday in form of cute girl, short hair, cute hats, unreal engine, highly detailed, artgerm digital illustration, studio ghibli, deviantart, sharp focus, artstation, by Alexei Vinogradov bakery, sweets, emerald eyes")
+//            Text("Negative Prompt: bad anatomy, extra legs, extra arms, poorly drawn face, poorly drawn hands, poorly drawn feet, fat, disfigured, out of frame, long neck, poo art, bad hands, bad art, deformed, gun, double head, flowers,asian,hyperrealistic,child")
+            // Generation command: swift run StableDiffusionSample "personification of Halloween holiday in form of cute girl, short hair, cute hats, unreal engine, highly detailed, artgerm digital illustration, studio ghibli, deviantart, sharp focus, artstation, by Alexei Vinogradov bakery, sweets, emerald eyes" --negative-prompt "bad anatomy, extra legs, extra arms, poorly drawn face, poorly drawn hands, poorly drawn feet, fat, disfigured, out of frame, long neck, poo art, bad hands, bad art, deformed, gun, double head, flowers,asian,hyperrealistic,child" --resource-path /Users/kasima/src/huggingface/apple/coreml-stable-diffusion-v1-5/split_einsum/compiled/ --output-path /Users/kasima/scratch/swiftcli/explore3 --step-exploration --guidance-exploration
             Image(imageName())
             HStack {
                 Slider(value: $steps, in: 10...100, step: 5) { Text("Steps") }
