@@ -12,3 +12,6 @@ Generation command:
 - Clone
 - Open xcodeproj file
 - Run
+
+
+![Screen Recording 2023-01-03 at 17 42 50](https://user-images.githubusercontent.com/146363/210347143-5d1ba32f-2fc7-4e7f-9fd0-387b1174c471.gif)
